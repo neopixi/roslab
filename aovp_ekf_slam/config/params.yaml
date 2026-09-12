@@ -1,0 +1,27 @@
+ekf_slam:
+  ros__parameters:
+    use_sim_time: true
+    sensor_x_offset: 0.20
+    landmark_radius_min: 0.07
+    landmark_radius_max: 0.18
+    circle_residual_max: 0.018
+    range_std: 0.045
+    bearing_std: 0.025
+    association_gate: 15.0
+    maximum_landmarks: 6
+    odometry_distance_std: 0.015
+    odometry_yaw_std: 0.030
+    encoder_distance_scale: 1.015
+    encoder_yaw_scale: 1.025
+
+motion_controller:
+  ros__parameters:
+    use_sim_time: true
+    cruise_speed: 0.62
+    wheel_separation: 0.50
+    wheel_radius: 0.11
+    obstacle_trigger_distance: 1.25
+    detour_offset: 1.25
+    goal_x: 10.5
+    max_angular_speed: 1.10
+    heading_gain: 1.8

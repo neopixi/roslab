@@ -1,0 +1,15 @@
+services:
+  simulation:
+    build:
+      context: .
+    image: aovp-ekf-slam:jazzy
+    container_name: aovp-ekf-slam
+    ports:
+      - "127.0.0.1:6080:6080"
+    environment:
+      AOVP_RVIZ: "true"
+      AOVP_GZ_GUI: "true"
+      LIBGL_ALWAYS_SOFTWARE: "1"
+    shm_size: "1gb"
+    stdin_open: true
+    tty: true

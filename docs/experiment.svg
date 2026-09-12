@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="330" viewBox="0 0 960 330">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#149447"/></marker>
+  </defs>
+  <rect width="960" height="330" rx="18" fill="#e8edf2"/>
+  <line x1="55" y1="190" x2="905" y2="190" stroke="#e2bd19" stroke-width="7" stroke-dasharray="20 12"/>
+  <rect x="430" y="145" width="75" height="90" rx="5" fill="#d73b31"/>
+  <text x="468" y="133" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#8c201a">препятствие</text>
+  <g fill="#2474db" stroke="#174888" stroke-width="2">
+    <circle cx="180" cy="80" r="13"/><circle cx="290" cy="275" r="13"/><circle cx="490" cy="70" r="13"/>
+    <circle cx="620" cy="278" r="13"/><circle cx="770" cy="75" r="13"/><circle cx="875" cy="275" r="13"/>
+  </g>
+  <path d="M 90 190 C 275 190, 330 190, 370 112 S 515 88, 565 120 S 610 190, 700 190 L 880 190" fill="none" stroke="#149447" stroke-width="6" marker-end="url(#arrow)"/>
+  <g transform="translate(102 161)">
+    <rect width="76" height="58" rx="8" fill="#29b456" stroke="#146c34" stroke-width="3"/>
+    <rect x="8" y="-7" width="15" height="14" rx="3" fill="#222"/><rect x="53" y="-7" width="15" height="14" rx="3" fill="#222"/>
+    <rect x="8" y="51" width="15" height="14" rx="3" fill="#222"/><rect x="53" y="51" width="15" height="14" rx="3" fill="#222"/>
+    <circle cx="56" cy="29" r="8" fill="#333"/>
+  </g>
+  <text x="95" y="248" font-family="sans-serif" font-size="17" fill="#26333f">4 колеса, привод спереди</text>
+  <text x="650" y="30" font-family="sans-serif" font-size="18" fill="#26333f">синие цилиндры → ориентиры EKF-SLAM</text>
+  <text x="650" y="215" font-family="sans-serif" font-size="17" fill="#26333f">возврат на y = 0</text>
+</svg>
